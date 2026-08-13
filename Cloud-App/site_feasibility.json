@@ -1,0 +1,28 @@
+{
+  "site": "Reserve, Catron County, NM",
+  "population_vintage": "Census PEP 7/1/2023 (CC-EST2024-AGESEX)",
+  "county_population": 3803,
+  "age_bands": {
+    "0-17": 431,
+    "18-44": 689,
+    "45-64": 1035,
+    "65-74": 943,
+    "75+": 705
+  },
+  "annual_ed_encounters": 1926,
+  "encounters_per_day": 5.3,
+  "admission_level_per_year": 221,
+  "transfer_level_per_year": 46,
+  "envelope_low": 2205269,
+  "envelope_central": 3766329,
+  "envelope_high": 4854294,
+  "estimates_source": "4 Aug cohort run (fallback constants)",
+  "caveats": [
+    "Inherits all six caveats of the encounter value estimator (MDC-level approximation; synthetic Synthea inputs; non-clinical use only).",
+    "NHAMCS rates are national; rural utilization differs, and current Catron demand is suppressed by the 77.5-mile access gap, so realized volume at a local facility could differ in either direction.",
+    "0-17 band uses the 1-17 rate (41/100); the <1-year rate (99/100) cannot be isolated in the county age groups, so encounters are slightly understated.",
+    "Envelope covers admission-level acuity only (11.5% of visits); the other ~88% of encounters carry clinical value not priced here.",
+    "An REH would transfer rather than admit; a monthly REH facility payment plus outpatient rates \u2014 retrieved from CMS, not estimated here \u2014 would be the actual payment mechanism.",
+    "This is an Encounter Value Estimate quantifying clinical resource intensity, not projected revenue."
+  ]
+}
